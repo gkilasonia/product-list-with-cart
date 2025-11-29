@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import styles from "./DessertItem.module.css";
-import AddToCartBtn from "../AddToCartBtn/addToCartBtn";
-import ItemPlusMinusBtn from "../ItemPlusMinusBtn/ItemPlusMinusBtn";
+import AddToCartBtn from "../AddToCartBtn/AddToCartBtn.jsx";
+import ItemPlusMinusBtn from "../ItemPlusMinusBtn/ItemPlusMinusBtn.jsx";
 import { AppContext } from "../../context/AppContext";
 
 const DessertItem = () => {
