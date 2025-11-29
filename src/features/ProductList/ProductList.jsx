@@ -1,5 +1,5 @@
 import styles from "./ProductList.module.css";
-import DessertItem from "../../components/dessertItem/dessertItem";
+import DessertItem from "../../components/DessertItem/DessertItem.jsx";
 
 function ProductList() {
   return (
