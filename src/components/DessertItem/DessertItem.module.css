@@ -1,0 +1,75 @@
+.dessertsList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.dessertItem {
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}
+
+.itemImageContainer {
+  position: relative;
+  display: block;
+  width: 327px;
+  height: 212px;
+}
+
+.itemImage {
+  width: 327px;
+  height: 212px;
+  border-radius: 8px;
+}
+
+.itemInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.itemCategory {
+  font-size: 14px;
+  line-height: 19px;
+  color: var(--Rose-500);
+}
+
+.itemName {
+  font-family: var(--SemiBold);
+  font-size: 16px;
+  line-height: 21px;
+  color: var(--Rose-900);
+}
+
+.itemPrice {
+  font-family: var(--SemiBold);
+  font-size: 16px;
+  line-height: 21px;
+  color: var(--Red);
+}
+
+@media (min-width: 48em) {
+  .dessertsList {
+    display: flex;
+    flex-direction: row; /* row instead of column */
+    flex-wrap: wrap; /* allow wrapping to next line */
+    justify-content: center; /* center items horizontally */
+    column-gap: 24px;
+    row-gap: 32px;
+  }
+
+  .itemImageContainer,
+  .itemImage {
+    width: 213.33px;
+  }
+}
+
+@media (min-width: 90em) {
+  .itemImageContainer,
+  .itemImage {
+    width: 250.67px;
+    height: 240px;
+  }
+}

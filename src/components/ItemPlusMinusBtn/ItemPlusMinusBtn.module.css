@@ -1,0 +1,34 @@
+.minusPlusItemBTN {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  bottom: 0;
+  padding: 12px;
+  background-color: var(--Red);
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 44px;
+  font-family: var(--SemiBold);
+  font-size: 14px;
+  line-height: 19px;
+  color: var(--White);
+  max-width: 160px;
+}
+
+.minusBtn,
+.plusBtn {
+  width: 20px;
+  height: 20px;
+  outline: 2px solid var(--White);
+  border-radius: 50%;
+  padding: 3.75px;
+  background-color: var(--Red);
+}
+
+.minusIcon,
+.plusIcon {
+  width: 13px;
+  height: 13px;
+}

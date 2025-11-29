@@ -1,0 +1,176 @@
+.container {
+  padding: 24px;
+  background-color: var(--White);
+  border-radius: 12px;
+  justify-content: center;
+}
+
+/* Empty Cart */
+
+.emptyCartContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
+.header {
+  font-family: var(--Bold);
+  font-size: 24px;
+  line-height: 32px;
+  color: var(--Red);
+}
+
+.emptyContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.emptyImage {
+  width: 128px;
+  height: 128px;
+}
+
+.emptyText {
+  font-family: var(--SemiBold);
+  font-size: 14px;
+  line-height: 19px;
+  color: var(--Rose-500);
+}
+
+/* Cart */
+
+.cartContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
+.addedItems {
+  display: flex; /*make it flex again*/
+  flex-direction: column;
+  gap: 16px;
+}
+
+.addedItemOnCart {
+  display: flex;
+  justify-content: space-between;
+}
+
+.addedItemInformation {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.addedItemHeader {
+  font-family: var(--SemiBold);
+  font-size: 14px;
+  line-height: 19px;
+  color: var(--Rose-900);
+}
+
+.quantityAndPrice {
+  display: flex;
+  gap: 8px;
+  font-size: 14px;
+  line-height: 19px;
+  color: var(--Rose-500);
+}
+
+.quantity {
+  font-family: var(--SemiBold);
+  color: var(--Red);
+}
+
+.price {
+  font-family: var(--SemiBold);
+  color: var(--Rose-500);
+}
+
+.removeItemBtn {
+  background: none;
+  border: none;
+}
+
+.separator {
+  height: 1px;
+  border: none;
+  background: var(--Rose-100);
+  margin: 0;
+}
+
+.orderTotalContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.orderTotal {
+  font-size: 14px;
+  line-height: 19px;
+  color: var(--Rose-900);
+}
+
+.orderTotalPrice {
+  font-family: var(--Bold);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: var(--Rose-900);
+}
+
+.carbonInfoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 16px;
+  background-color: var(--Rose-50);
+  border-radius: 8px;
+}
+
+.carbonTree {
+  width: 20px;
+  height: 20px;
+}
+
+.carbonInfoText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: var(--Rose-900);
+}
+
+.carbonNeutralText {
+  font-family: var(--SemiBold);
+}
+
+.confirmOrderBtn {
+  background-color: var(--Red);
+  color: var(--White);
+  padding: 16px 0;
+  border-radius: 999px;
+  font-family: var(--SemiBold);
+  font-size: 16px;
+  line-height: 21px;
+}
+
+@media (min-width: 90em) {
+  .container,
+  .emptyCartContainer {
+    width: 384px;
+    height: auto;
+  }
+
+  .cartContainer {
+    width: 384px;
+    height: auto;
+  }
+}

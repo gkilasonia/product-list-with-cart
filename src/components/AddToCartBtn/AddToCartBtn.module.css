@@ -1,0 +1,28 @@
+.addToCartBTN {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  bottom: 0;
+  padding: 12px 24px;
+  background-color: var(--White);
+  outline: 1px solid var(--Rose-400);
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--SemiBold);
+  font-size: 14px;
+  line-height: 19px;
+  color: var(--Rose-900);
+  min-width: 120px; /* add this or adjust as needed */
+  height: 44px; /* fix height */
+  white-space: nowrap; /* prevent text wrapping */
+  box-sizing: border-box;
+  width: 160px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}

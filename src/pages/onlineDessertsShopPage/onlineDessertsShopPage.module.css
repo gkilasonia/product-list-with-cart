@@ -1,0 +1,12 @@
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+@media (min-width: 90em) {
+  main {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
